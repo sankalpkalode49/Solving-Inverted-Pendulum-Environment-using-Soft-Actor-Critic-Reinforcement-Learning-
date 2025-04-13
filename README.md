@@ -30,7 +30,8 @@ Make sure you have the following installed:
 
 
 pip install torch gym numpy matplotlib pybullet
-sudo apt-get install xvfb🏁 How to Train
+sudo apt-get install xvfb
+🏁 How to Train
 To train the SAC agent on the inverted pendulum:
 
 python3 main_sac.py
