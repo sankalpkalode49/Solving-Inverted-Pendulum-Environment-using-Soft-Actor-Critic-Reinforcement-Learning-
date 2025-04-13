@@ -1,5 +1,7 @@
 🚀 Soft Actor-Critic (SAC) on Inverted Pendulum using PyBullet
 This project implements the Soft Actor-Critic (SAC) algorithm to train an agent to balance an inverted pendulum using the InvertedPendulumBulletEnv-v0 environment from pybullet_envs. The implementation is done from scratch using PyTorch, including custom neural network architectures, replay buffer, and SAC training logic.
+
+
 actor-critic-RL/
 ├── main_sac.py             # Main training script
 ├── inference.py            # Run trained agent for inference
