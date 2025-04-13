@@ -28,3 +28,17 @@ Make sure you have the following installed:
 ```bash
 pip install torch gym numpy matplotlib pybullet
 sudo apt-get install xvfb
+
+
+🏋️ How to Train
+Train the SAC agent on the inverted pendulum:
+python3 main_sac.py '''
+
+During training, model checkpoints and a plot of the reward curve will be saved.
+
+🎮 How to Run Inference
+To visualize the trained agent:
+
+python3 inference.py
+
+This will load the saved model and render the environment so you can see the pendulum balancing in real time.
